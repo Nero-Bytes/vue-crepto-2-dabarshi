@@ -1,3 +1,4 @@
+// used
 <script>
 import { CountTo } from "vue3-count-to";
 

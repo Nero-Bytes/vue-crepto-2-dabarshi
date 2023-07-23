@@ -1,3 +1,4 @@
+// used
 <script>
 import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/vue";

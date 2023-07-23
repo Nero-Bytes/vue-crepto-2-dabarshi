@@ -103,6 +103,7 @@ export default [
     meta: { title: "Positions", authRequired: true },
     component: () => import("../views/apps/crypto/positions"),
   },
+  // used same components for transactions and billing
   {
     path: "/transactions",
     name: "crypto transactions",

@@ -999,11 +999,11 @@ export default {
                 <span class="align-middle">Taskboard</span>
               </router-link>
               <router-link class="dropdown-item" to="/profile-kyc">
-                <i class="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1"></i>
+                <i class="mdi mdi-lock-check-outline text-muted fs-16 align-middle me-1"></i>
                 <span class="align-middle">KYC Application</span>
               </router-link>
               <router-link class="dropdown-item" to="/my-wallet">
-                <i class="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1"></i>
+                <i class="mdi mdi-wallet-outline text-muted fs-16 align-middle me-1"></i>
                 <span class="align-middle">My Wallet</span>
               </router-link>
               <router-link class="dropdown-item" to="/pages/faqs"><i

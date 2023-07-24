@@ -3,19 +3,19 @@
 import Multiselect from "@vueform/multiselect";
 import "@vueform/multiselect/themes/default.css";
 
-import { CountTo } from "vue3-count-to";
-import SwiperCore from "swiper";
-import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/swiper-bundle.css";
+// import { CountTo } from "vue3-count-to";
+// import SwiperCore from "swiper";
+// import { Swiper, SwiperSlide } from "swiper/vue";
+// import "swiper/swiper-bundle.css";
 
-import Lottie from "@/components/widgets/lottie.vue";
-import animationData from "@/components/widgets/fhtaantg.json";
-import animationData1 from "@/components/widgets/qhviklyi.json";
-import animationData2 from "@/components/widgets/msoeawqm.json";
-import animationData3 from "@/components/widgets/yeallgsa.json";
-import animationData4 from "@/components/widgets/vaeagfzc.json";
+// import Lottie from "@/components/widgets/lottie.vue";
+// import animationData from "@/components/widgets/fhtaantg.json";
+// import animationData1 from "@/components/widgets/qhviklyi.json";
+// import animationData2 from "@/components/widgets/msoeawqm.json";
+// import animationData3 from "@/components/widgets/yeallgsa.json";
+// import animationData4 from "@/components/widgets/vaeagfzc.json";
 
-SwiperCore.use([]);
+// SwiperCore.use([]);
 
 import Layout from "../../../layouts/main.vue";
 import PageHeader from "@/components/page-header";
@@ -25,10 +25,10 @@ export default {
   components: {
     Layout,
     PageHeader,
-    CountTo,
-    Swiper,
-    SwiperSlide,
-    lottie: Lottie,
+    // CountTo,
+    // Swiper,
+    // SwiperSlide,
+    // lottie: Lottie,
     Multiselect
   },
   page: {
@@ -205,16 +205,22 @@ export default {
       perPage: 9,
       pages: [],
       searchQuery: null,
-      defaultOptions: { animationData: animationData },
-      defaultOptions1: { animationData: animationData1 },
-      defaultOptions2: { animationData: animationData2 },
-      defaultOptions3: { animationData: animationData3 },
-      defaultOptions4: { animationData: animationData4 }
+      // defaultOptions: { animationData: animationData },
+      // defaultOptions1: { animationData: animationData1 },
+      // defaultOptions2: { animationData: animationData2 },
+      // defaultOptions3: { animationData: animationData3 },
+      // defaultOptions4: { animationData: animationData4 }
     };
   },
   computed: {
+
+    sortTransactions() {
+      return this.dateSort(this.transactions);
+    },
+
+
     displayedPosts() {
-      return this.paginate(this.transactions);
+      return this.paginate(this.sortTransactions);
     },
     resultQuery() {
       if (this.searchQuery) {
@@ -251,6 +257,11 @@ export default {
     },
   },
   methods: {
+
+    dateSort( inputArray) {
+      return inputArray.sort((a, b) => new Date(b.date) - new Date(a.date) )
+    },
+
     setPages() {
       let numberOfPages = Math.ceil(this.transactions.length / this.perPage);
       for (let index = 1; index <= numberOfPages; index++) {
@@ -271,7 +282,7 @@ export default {
 <template>
   <Layout>
     <PageHeader :title="title" :items="items" />
-    <b-row>
+    <!-- <b-row>
       <b-col xxl="3" md="6">
         <b-card no-body class="card-animate">
           <b-card-body>
@@ -402,7 +413,7 @@ export default {
           </swiper-slide>
         </swiper>
       </b-col>
-    </b-row>
+    </b-row> -->
 
     <b-row class="align-items-center mb-4 g-3">
       <b-col sm="3">

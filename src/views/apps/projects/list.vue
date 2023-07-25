@@ -401,9 +401,9 @@ export default {
                       </button>
 
                       <div class="dropdown-menu dropdown-menu-end">
-                        <router-link class="dropdown-item" to="/apps/projects-overview"><i
+                        <!-- <router-link class="dropdown-item" to="/apps/projects-overview"><i
                             class="ri-eye-fill align-bottom me-2 text-muted"></i>
-                          View</router-link>
+                          View</router-link> -->
                         <router-link class="dropdown-item" to="/apps/projects-create"><i
                             class="ri-pencil-fill align-bottom me-2 text-muted"></i>
                           Edit</router-link>
@@ -426,9 +426,9 @@ export default {
                   </div>
                 </div>
                 <div class="flex-grow-1">
-                  <h5 class="mb-1 fs-15">
+                  <!-- <h5 class="mb-1 fs-15">
                     <router-link to="/apps/projects-overview" class="text-dark">{{ item.label }}</router-link>
-                  </h5>
+                  </h5> -->
                   <p class="text-muted text-truncate-two-lines mb-3">
                     {{ item.caption }}
                   </p>
@@ -489,9 +489,9 @@ export default {
             <div class="p-3 mt-n3 mx-n3 bg-soft-danger rounded-top">
               <div class="d-flex align-items-center">
                 <div class="flex-grow-1">
-                  <h5 class="mb-0 fs-14">
+                  <!-- <h5 class="mb-0 fs-14">
                     <router-link to="/apps/projects-overview" class="text-dark">{{ item.label }}</router-link>
-                  </h5>
+                  </h5> -->
                 </div>
                 <div class="flex-shrink-0">
                   <div class="d-flex gap-1 align-items-center my-n2">
@@ -507,9 +507,9 @@ export default {
                       </button>
 
                       <div class="dropdown-menu dropdown-menu-end">
-                        <router-link class="dropdown-item" to="/apps/projects-overview"><i
+                        <!-- <router-link class="dropdown-item" to="/apps/projects-overview"><i
                             class="ri-eye-fill align-bottom me-2 text-muted"></i>
-                          View</router-link>
+                          View</router-link> -->
                         <router-link class="dropdown-item" to="/apps/projects-create"><i
                             class="ri-pencil-fill align-bottom me-2 text-muted"></i>
                           Edit</router-link>
@@ -597,9 +597,9 @@ export default {
                   </button>
 
                   <div class="dropdown-menu dropdown-menu-end">
-                    <router-link class="dropdown-item" to="/apps/projects-overview"><i
+                    <!-- <router-link class="dropdown-item" to="/apps/projects-overview"><i
                         class="ri-eye-fill align-bottom me-2 text-muted"></i>
-                      View</router-link>
+                      View</router-link> -->
                     <router-link class="dropdown-item" to="/apps/projects-create"><i
                         class="ri-pencil-fill align-bottom me-2 text-muted"></i>
                       Edit</router-link>
@@ -617,11 +617,11 @@ export default {
             </div>
 
             <div class="py-3">
-              <h5 class="fs-14 mb-3">
+              <!-- <h5 class="fs-14 mb-3">
                 <router-link to="/apps/projects-overview" class="text-dark">{{
                     item.label
                 }}</router-link>
-              </h5>
+              </h5> -->
               <b-row class="gy-3">
                 <b-col cols="6">
                   <div>

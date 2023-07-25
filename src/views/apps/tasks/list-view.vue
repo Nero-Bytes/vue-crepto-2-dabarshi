@@ -814,8 +814,8 @@ export default {
                       </router-link>
                     </td>
                     <td class="project_name">
-                      <router-link to="/apps/projects-overview" class="fw-medium link-primary">{{ task.project }}
-                      </router-link>
+                      <!-- <router-link to="/apps/projects-overview" class="fw-medium link-primary">{{ task.project }}
+                      </router-link> -->
                     </td>
                     <td>
                       <div class="d-flex">

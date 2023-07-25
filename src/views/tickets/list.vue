@@ -654,9 +654,9 @@ export default {
                         <input class="form-check-input" type="checkbox" name="chk_child" value="option1" />
                       </div>
                     </th>
-                    <td class="id">
+                    <!-- <td class="id">
                       <router-link to="/apps/tickets-details" class="fw-medium link-primary">{{ data.id }}</router-link>
-                    </td>
+                    </td> -->
                     <td class="tasks_name">
                       {{ data.title }}
                     </td>
@@ -682,7 +682,7 @@ export default {
                     <td>
                       <b-dropdown variant="soft-secondary" toggle-class="text-decoration-none arrow-none" size="sm" no-caret>
                         <template #button-content> <i class="ri-more-fill align-middle"></i> </template>
-                        <b-dropdown-item href="/apps/tickets-details"><i class="ri-eye-fill align-bottom me-2 text-muted"></i>View</b-dropdown-item>
+                        <!-- <b-dropdown-item href="/apps/tickets-details"><i class="ri-eye-fill align-bottom me-2 text-muted"></i>View</b-dropdown-item> -->
                         <b-dropdown-item href="#" class="edit-item-btn"  @click="editdata(data)"><i class="ri-pencil-fill align-bottom me-2 text-muted"></i> Edit</b-dropdown-item>
                         <b-dropdown-item href="#" class="remove-item-btn" @click="deletedata(data)"><i class="ri-delete-bin-fill align-bottom me-2 text-muted"></i> Delete</b-dropdown-item>
                       </b-dropdown>  

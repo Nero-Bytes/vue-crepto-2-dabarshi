@@ -70,9 +70,9 @@ export default {
                                             size="sm" no-caret>
                                             <template #button-content> <i class="ri-share-line"></i>
                                             </template>
-                                            <b-dropdown-item href="/apps/tickets-details">
+                                            <!-- <b-dropdown-item href="/apps/tickets-details">
                                                 <i class="ri-eye-fill align-bottom me-2 text-muted"></i> View
-                                            </b-dropdown-item>
+                                            </b-dropdown-item> -->
                                             <b-dropdown-item href="#" @click="editdata(data)">
                                                 <i class="ri-share-forward-fill align-bottom me-2 text-muted"></i> Share
                                                 with

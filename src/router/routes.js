@@ -57,7 +57,7 @@ export default [
   },
 
   // User
-  
+
   {
     path: "/",
     name: "crypto default",
@@ -144,7 +144,7 @@ export default [
   // user
 
   // admin
-  
+
   {
     path: "/admin",
     name: "admin crypto default",
@@ -233,66 +233,27 @@ export default [
     component: () => import("../views/pages/profile/setting"),
   },
 
-  // admin
-  
+
+
+
+
+
   // {
-  //   path: "/",
-  //   name: "default",
+  //   path: "/dashboard/nft",
+  //   name: "dashboard-nft",
   //   meta: {
-  //     title: "Dashboard",
-  //     authRequired: true,
+  //     title: "NFT Dashboard", authRequired: true,
   //   },
-  //   component: () => import("../views/dashboard/ecommerce/index.vue"),
+  //   component: () => import("../views/dashboard/nft/index"),
   // },
-  {
-    path: "/dashboard/crypto",
-    name: "dashboard-crypto",
-    meta: {
-      title: "Crypto",
-      authRequired: true,
-    },
-    component: () => import("../views/dashboard/crypto/index"),
-  },
-  {
-    path: "/dashboard/projects",
-    name: "dashboard-projects",
-    meta: {
-      title: "Projects", authRequired: true,
-    },
-    component: () => import("../views/dashboard/projects/index"),
-  },
-  {
-    path: "/dashboard/crm",
-    name: "dashboard-crm",
-    meta: {
-      title: "CRM", authRequired: true,
-    },
-    component: () => import("../views/dashboard/crm/index"),
-  },
-  {
-    path: "/dashboard/analytics",
-    name: "dashboard-analytics",
-    meta: {
-      title: "Analytics", authRequired: true,
-    },
-    component: () => import("../views/dashboard/analytics/index"),
-  },
-  {
-    path: "/dashboard/nft",
-    name: "dashboard-nft",
-    meta: {
-      title: "NFT Dashboard", authRequired: true,
-    },
-    component: () => import("../views/dashboard/nft/index"),
-  },
-  {
-    path: "/dashboard/job",
-    name: "dashboard-job",
-    meta: {
-      title: "Job Dashboard", authRequired: true,
-    },
-    component: () => import("../views/dashboard/job/index"),
-  },
+  // {
+  //   path: "/dashboard/job",
+  //   name: "dashboard-job",
+  //   meta: {
+  //     title: "Job Dashboard", authRequired: true,
+  //   },
+  //   component: () => import("../views/dashboard/job/index"),
+  // },
   {
     path: "/logout",
     name: "logout",
@@ -318,162 +279,162 @@ export default [
     meta: { title: "Chat", authRequired: true },
     component: () => import("../views/apps/chat"),
   },
-  {
-    path: "/apps-file-manager",
-    name: "file manager",
-    meta: { title: "File Manager", authRequired: true },
-    component: () => import("../views/apps/filemanager"),
-  },
-  {
-    path: "/apps-todo",
-    name: "To Do List",
-    meta: { title: "To Do List", authRequired: true },
-    component: () => import("../views/apps/todo"),
-  },
-  {
-    path: "/mailbox",
-    name: "mailbox",
-    meta: { title: "Mailbox", authRequired: true },
-    component: () => import("../views/apps/email/mailbox"),
-  },
-  {
-    path: "/email/email-basic",
-    name: "email-basic",
-    meta: { title: "Basic Action", authRequired: true },
-    component: () => import("../views/apps/email/email-basic"),
-  },
-  {
-    path: "/email/email-ecommerce",
-    name: "email-ecommerce",
-    meta: { title: "Ecommerce Action", authRequired: true },
-    component: () => import("../views/apps/email/email-ecommerce"),
-  },
-  {
-    path: "/apps/nft-auction",
-    name: "auction",
-    meta: { title: "Live Auction", authRequired: true },
-    component: () => import("../views/apps/nft/nft-auction"),
-  },
-  {
-    path: "/apps/nft-collection",
-    name: "collection",
-    meta: { title: "Collactions", authRequired: true },
-    component: () => import("../views/apps/nft/nft-collection"),
-  },
-  {
-    path: "/apps/nft-create",
-    name: "create",
-    meta: { title: "Create", authRequired: true },
-    component: () => import("../views/apps/nft/nft-create"),
-  },
-  {
-    path: "/apps/nft-creators",
-    name: "creators",
-    meta: { title: "Creators", authRequired: true },
-    component: () => import("../views/apps/nft/nft-creators"),
-  },
-  {
-    path: "/apps/nft-explore",
-    name: "explore",
-    meta: { title: "Explore Now", authRequired: true },
-    component: () => import("../views/apps/nft/nft-explore"),
-  },
-  {
-    path: "/apps/nft-item-detail",
-    name: "item-detail",
-    meta: { title: "Item Detail", authRequired: true },
-    component: () => import("../views/apps/nft/nft-item-detail"),
-  },
-  {
-    path: "/apps/nft-marketplace",
-    name: "marketplace",
-    meta: { title: "Marketplace", authRequired: true },
-    component: () => import("../views/apps/nft/nft-marketplace"),
-  },
-  {
-    path: "/apps/nft-ranking",
-    name: "ranking",
-    meta: { title: "Ranking", authRequired: true },
-    component: () => import("../views/apps/nft/nft-ranking"),
-  },
-  {
-    path: "/apps/nft-wallet",
-    name: "nft-wallet",
-    meta: { title: "Wallet", authRequired: true },
-    component: () => import("../views/apps/nft/nft-wallet"),
-  },
-  {
-    path: "/apps/projects-list",
-    name: "projects-list",
-    meta: { title: "Projects List", authRequired: true },
-    component: () => import("../views/apps/projects/list"),
-  },
-  {
-    path: "/apps/projects-overview",
-    name: "projects Overview",
-    meta: { title: "Projects Overview", authRequired: true },
-    component: () => import("../views/apps/projects/overview"),
-  },
-  {
-    path: "/apps/projects-create",
-    name: "projects-create",
-    meta: { title: "Projects Create", authRequired: true },
-    component: () => import("../views/apps/projects/create"),
-  },
-  {
-    path: "/apps/tasks-details",
-    name: "tasks-details",
-    meta: { title: "Tasks Details", authRequired: true },
-    component: () => import("../views/apps/tasks/details"),
-  },
+  // {
+  //   path: "/apps-file-manager",
+  //   name: "file manager",
+  //   meta: { title: "File Manager", authRequired: true },
+  //   component: () => import("../views/apps/filemanager"),
+  // },
+  // {
+  //   path: "/apps-todo",
+  //   name: "To Do List",
+  //   meta: { title: "To Do List", authRequired: true },
+  //   component: () => import("../views/apps/todo"),
+  // },
+  // {
+  //   path: "/mailbox",
+  //   name: "mailbox",
+  //   meta: { title: "Mailbox", authRequired: true },
+  //   component: () => import("../views/apps/email/mailbox"),
+  // },
+  // {
+  //   path: "/email/email-basic",
+  //   name: "email-basic",
+  //   meta: { title: "Basic Action", authRequired: true },
+  //   component: () => import("../views/apps/email/email-basic"),
+  // },
+  // {
+  //   path: "/email/email-ecommerce",
+  //   name: "email-ecommerce",
+  //   meta: { title: "Ecommerce Action", authRequired: true },
+  //   component: () => import("../views/apps/email/email-ecommerce"),
+  // },
+  // {
+  //   path: "/apps/nft-auction",
+  //   name: "auction",
+  //   meta: { title: "Live Auction", authRequired: true },
+  //   component: () => import("../views/apps/nft/nft-auction"),
+  // },
+  // {
+  //   path: "/apps/nft-collection",
+  //   name: "collection",
+  //   meta: { title: "Collactions", authRequired: true },
+  //   component: () => import("../views/apps/nft/nft-collection"),
+  // },
+  // {
+  //   path: "/apps/nft-create",
+  //   name: "create",
+  //   meta: { title: "Create", authRequired: true },
+  //   component: () => import("../views/apps/nft/nft-create"),
+  // },
+  // {
+  //   path: "/apps/nft-creators",
+  //   name: "creators",
+  //   meta: { title: "Creators", authRequired: true },
+  //   component: () => import("../views/apps/nft/nft-creators"),
+  // },
+  // {
+  //   path: "/apps/nft-explore",
+  //   name: "explore",
+  //   meta: { title: "Explore Now", authRequired: true },
+  //   component: () => import("../views/apps/nft/nft-explore"),
+  // },
+  // {
+  //   path: "/apps/nft-item-detail",
+  //   name: "item-detail",
+  //   meta: { title: "Item Detail", authRequired: true },
+  //   component: () => import("../views/apps/nft/nft-item-detail"),
+  // },
+  // {
+  //   path: "/apps/nft-marketplace",
+  //   name: "marketplace",
+  //   meta: { title: "Marketplace", authRequired: true },
+  //   component: () => import("../views/apps/nft/nft-marketplace"),
+  // },
+  // {
+  //   path: "/apps/nft-ranking",
+  //   name: "ranking",
+  //   meta: { title: "Ranking", authRequired: true },
+  //   component: () => import("../views/apps/nft/nft-ranking"),
+  // },
+  // {
+  //   path: "/apps/nft-wallet",
+  //   name: "nft-wallet",
+  //   meta: { title: "Wallet", authRequired: true },
+  //   component: () => import("../views/apps/nft/nft-wallet"),
+  // },
+  // {
+  //   path: "/apps/projects-list",
+  //   name: "projects-list",
+  //   meta: { title: "Projects List", authRequired: true },
+  //   component: () => import("../views/apps/projects/list"),
+  // },
+  // {
+  //   path: "/apps/projects-overview",
+  //   name: "projects Overview",
+  //   meta: { title: "Projects Overview", authRequired: true },
+  //   component: () => import("../views/apps/projects/overview"),
+  // },
+  // {
+  //   path: "/apps/projects-create",
+  //   name: "projects-create",
+  //   meta: { title: "Projects Create", authRequired: true },
+  //   component: () => import("../views/apps/projects/create"),
+  // },
+  // {
+  //   path: "/apps/tasks-details",
+  //   name: "tasks-details",
+  //   meta: { title: "Tasks Details", authRequired: true },
+  //   component: () => import("../views/apps/tasks/details"),
+  // },
   {
     path: "/apps/tasks-kanban",
     name: "tasks-kanban",
     meta: { title: "Tasks Kanban", authRequired: true },
     component: () => import("../views/apps/tasks/kanban"),
   },
-  {
-    path: "/apps/tasks-list-view",
-    name: "tasks-list-view",
-    meta: { title: "Taks List", authRequired: true },
-    component: () => import("../views/apps/tasks/list-view"),
-  },
-  {
-    path: "/apps/tickets-details",
-    name: "tickets-details",
-    meta: { title: "Ticket Details", authRequired: true },
-    component: () => import("../views/tickets/details"),
-  },
-  {
-    path: "/apps/tickets-list",
-    name: "tickets-list",
-    meta: { title: "Tickets List", authRequired: true },
-    component: () => import("../views/tickets/list"),
-  },
-  {
-    path: "/apps/crm-contacts",
-    name: "crm-contacts",
-    meta: { title: "CRM Contacts", authRequired: true },
-    component: () => import("../views/apps/crm/contacts"),
-  },
-  {
-    path: "/apps/crm-companies",
-    name: "crm-companies",
-    meta: { title: "CRM companies", authRequired: true },
-    component: () => import("../views/apps/crm/companies"),
-  },
-  {
-    path: "/apps/crm-deals",
-    name: "crm-deals",
-    meta: { title: "CRM Deals", authRequired: true },
-    component: () => import("../views/apps/crm/deals"),
-  },
-  {
-    path: "/apps/crm-leads",
-    name: "crm-leads",
-    meta: { title: "CRM Leads", authRequired: true },
-    component: () => import("../views/apps/crm/leads"),
-  },
+  // {
+  //   path: "/apps/tasks-list-view",
+  //   name: "tasks-list-view",
+  //   meta: { title: "Taks List", authRequired: true },
+  //   component: () => import("../views/apps/tasks/list-view"),
+  // },
+  // {
+  //   path: "/apps/tickets-details",
+  //   name: "tickets-details",
+  //   meta: { title: "Ticket Details", authRequired: true },
+  //   component: () => import("../views/tickets/details"),
+  // },
+  // {
+  //   path: "/apps/tickets-list",
+  //   name: "tickets-list",
+  //   meta: { title: "Tickets List", authRequired: true },
+  //   component: () => import("../views/tickets/list"),
+  // },
+  // {
+  //   path: "/apps/crm-contacts",
+  //   name: "crm-contacts",
+  //   meta: { title: "CRM Contacts", authRequired: true },
+  //   component: () => import("../views/apps/crm/contacts"),
+  // },
+  // {
+  //   path: "/apps/crm-companies",
+  //   name: "crm-companies",
+  //   meta: { title: "CRM companies", authRequired: true },
+  //   component: () => import("../views/apps/crm/companies"),
+  // },
+  // {
+  //   path: "/apps/crm-deals",
+  //   name: "crm-deals",
+  //   meta: { title: "CRM Deals", authRequired: true },
+  //   component: () => import("../views/apps/crm/deals"),
+  // },
+  // {
+  //   path: "/apps/crm-leads",
+  //   name: "crm-leads",
+  //   meta: { title: "CRM Leads", authRequired: true },
+  //   component: () => import("../views/apps/crm/leads"),
+  // },
   {
     path: "/ecommerce/customers",
     name: "customers",

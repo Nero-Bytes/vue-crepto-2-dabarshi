@@ -393,11 +393,11 @@ export default {
                         </b-link>
                         <div class="collapse menu-dropdown" id="sidebaremail">
                           <ul class="nav nav-sm flex-column">
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                               <router-link to="/mailbox" class="nav-link" data-key="t-mailbox">
                                 {{ $t("t-mailbox") }}
                               </router-link>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                               <b-link href="#sidebarsubemail" class="nav-link" data-bs-toggle="collapse" role="button"
                                 aria-expanded="false" aria-controls="sidebarsubemail" data-key="t-projects">
@@ -405,16 +405,16 @@ export default {
                               </b-link>
                               <div class="collapse menu-dropdown" id="sidebarsubemail">
                                 <ul class="nav nav-sm flex-column">
-                                  <li class="nav-item">
+                                  <!-- <li class="nav-item">
                                     <router-link to="/email/email-basic" class="nav-link" data-key="t-products">
                                       {{ $t("t-basic-action") }}
                                     </router-link>
-                                  </li>
-                                  <li class="nav-item">
+                                  </li> -->
+                                  <!-- <li class="nav-item">
                                     <router-link to="/email/email-ecommerce" class="nav-link" data-key="t-products">
                                       {{ $t("t-ecommerce-action") }}
                                     </router-link>
-                                  </li>
+                                  </li> -->
                                 </ul>
                               </div>
                             </li>
@@ -489,21 +489,21 @@ export default {
                         </b-link>
                         <div class="collapse menu-dropdown" id="sidebarProjects">
                           <ul class="nav nav-sm flex-column">
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/projects-list" class="nav-link" data-key="t-list">
                                 {{ $t("t-list") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/projects-overview" class="nav-link" data-key="t-overview">
                                 {{ $t("t-overview") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/projects-create" class="nav-link" data-key="t-create-project">
                                 {{ $t("t-create-project") }}
                               </router-link>
-                            </li>
+                            </li> -->
                           </ul>
                         </div>
                       </li>
@@ -519,16 +519,16 @@ export default {
                                 {{ $t("t-kanbanboard") }}
                               </router-link>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/tasks-list-view" class="nav-link" data-key="t-list-view">
                                 {{ $t("t-list-view") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/tasks-details" class="nav-link" data-key="t-task-details">
                                 {{ $t("t-task-details") }}
                               </router-link>
-                            </li>
+                            </li> -->
                           </ul>
                         </div>
                       </li>
@@ -539,26 +539,26 @@ export default {
                         </b-link>
                         <div class="collapse menu-dropdown" id="sidebarCRM">
                           <ul class="nav nav-sm flex-column">
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/crm-contacts" class="nav-link" data-key="t-contacts">
                                 {{ $t("t-contacts") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/crm-companies" class="nav-link" data-key="t-companies">
                                 {{ $t("t-companies") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/crm-deals" class="nav-link" data-key="t-deals">
                                 {{ $t("t-deals") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/crm-leads" class="nav-link" data-key="t-leads">
                                 {{ $t("t-leads") }}
                               </router-link>
-                            </li>
+                            </li> -->
                           </ul>
                         </div>
                       </li>
@@ -634,16 +634,16 @@ export default {
                         </b-link>
                         <div class="collapse menu-dropdown" id="sidebarTickets">
                           <ul class="nav nav-sm flex-column">
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/tickets-list" class="nav-link" data-key="t-list-view">
                                 {{ $t("t-list-view") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/tickets-details" class="nav-link" data-key="t-ticket-details">
                                 {{ $t("t-ticket-details") }}
                               </router-link>
-                            </li>
+                            </li> -->
                           </ul>
                         </div>
                       </li>
@@ -654,64 +654,64 @@ export default {
                         </b-link>
                         <div class="collapse menu-dropdown" id="nftmarketplace">
                           <ul class="nav nav-sm flex-column">
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/nft-marketplace" class="nav-link" data-key="t-list-view">
                                 {{ $t("t-marketplace") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/nft-explore" class="nav-link" data-key="t-ticket-details">
                                 {{ $t("t-explore-now") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/nft-auction" class="nav-link" data-key="t-ticket-details">
                                 {{ $t("t-live-auction") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/nft-item-detail" class="nav-link" data-key="t-ticket-details">
                                 {{ $t("t-item-details") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/nft-collection" class="nav-link" data-key="t-ticket-details">
                                 {{ $t("t-collections") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/nft-creators" class="nav-link" data-key="t-ticket-details">
                                 {{ $t("t-creators") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/nft-ranking" class="nav-link" data-key="t-ticket-details">
                                 {{ $t("t-ranking") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/nft-wallet" class="nav-link" data-key="t-ticket-details">
                                 {{ $t("t-wallet-connect") }}
                               </router-link>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                               <router-link to="/apps/nft-create" class="nav-link" data-key="t-ticket-details">
                                 {{ $t("t-create-nft") }}
                               </router-link>
-                            </li>
+                            </li> -->
                           </ul>
                         </div>
                       </li>
-                      <li class="nav-item">
+                      <!-- <li class="nav-item">
                         <router-link to="/apps-file-manager" class="nav-link" data-key="t-file-manager">
                           {{ $t("t-file-manager") }}
                         </router-link>
-                      </li>
-                      <li class="nav-item">
+                      </li> -->
+                      <!-- <li class="nav-item">
                         <router-link to="/apps-todo" class="nav-link" data-key="t-to-do">
                           {{ $t("t-to-do") }}
                         </router-link>
-                      </li>
+                      </li> -->
                       <li class="nav-item">
                         <b-link href="#jobs" class="nav-link" data-bs-toggle="collapse" role="button"
                           aria-expanded="false" aria-controls="jobs" data-key="t-jobs">
